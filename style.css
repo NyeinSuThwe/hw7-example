@@ -7,4 +7,10 @@
 }
 /* === Element selectors === */
 h1 { color: blue; }
+img {
+  width: 100vw;
+  height: auto;   /* keep aspect ratio */
+  display: block; /* avoid baseline gap */
+}
+
 
