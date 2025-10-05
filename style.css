@@ -17,5 +17,9 @@ img {
 .fact { color: white; }
 .fun  { font-style: italic; }
 
+/* === ID selector === */
+#three { text-decoration: underline; }
+
+
 
 
