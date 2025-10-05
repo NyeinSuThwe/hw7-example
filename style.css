@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* === Element selectors === */
 h1 { color: blue; }
 img {
@@ -12,8 +13,9 @@ img {
   height: auto;   /* keep aspect ratio */
   display: block; /* avoid baseline gap */
 }
+
 /* === Class selectors === */
-.list { background-color: darkslateblue; }
+.list { background-color: darkslateblue; padding: 1rem; } /* optional padding */
 .fact { color: white; }
 .fun  { font-style: italic; }
 
@@ -32,9 +34,3 @@ footer a:visited { color: green; }
 
 /* === Multi-selector === */
 h1, p { font-family: serif; }
-
-
-
-
-
-
