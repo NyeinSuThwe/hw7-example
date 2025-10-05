@@ -20,6 +20,13 @@ img {
 /* === ID selector === */
 #three { text-decoration: underline; }
 
+/* === Pseudo-classes for links === */
+a:link    { color: blue; }
+a:visited { color: darkred; }
+a:hover   { text-decoration: none; }
+a:active,
+a:focus   { color: orange; }
+
 
 
 
