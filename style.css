@@ -30,6 +30,11 @@ a:focus   { color: orange; }
 /* === Specificity test === */
 footer a:visited { color: green; }
 
+/* === Multi-selector === */
+h1, p { font-family: serif; }
+
+
+
 
 
 
